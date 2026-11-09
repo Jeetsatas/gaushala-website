@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Gaushala Website
 
-## Getting Started
+A Next.js and TypeScript website project with page sections for a gaushala, including service selection, recent updates, donor information, and supporting content components.
 
-First, run the development server:
+## Technology
 
-```bash
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+
+## Run locally
+
+Requirements: Node.js and npm.
+
+```sh
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open `http://localhost:3000`. To build for production:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```sh
+npm run build
+npm start
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project structure
 
-## Learn More
+- `src/app/` — application routes, page, and global styles
+- `src/components/sections/` — reusable page sections
+- `src/components/ui/` — interface components
+- `public/` — static assets
 
-To learn more about Next.js, take a look at the following resources:
+## Before deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Replace starter or placeholder assets and content with approved project materials. Confirm donation or service flows, contact details, privacy statements, accessibility, and mobile behavior before publishing. Configure any required environment values in the hosting provider rather than committing secrets.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Project attribution
 
-## Deploy on Vercel
+This repository includes an `.orchids/` project configuration. Document which parts you designed, implemented, or adapted before using the project as a portfolio example. Add screenshots and a live demo link only when available and accurate.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+No license is currently documented. Contact the repository owner before reusing this project.
